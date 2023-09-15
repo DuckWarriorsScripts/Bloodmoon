@@ -1,3 +1,9 @@
+// ==UserScript==
+// @name         001 - MarketPremium
+// @include      **exchange*
+// @require      https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js
+// ==/UserScript==
+
 (function (_0x3dd51f, _0x5c78d2) {
     const _0x1a4d8a = _0x25ba, _0x14e79c = _0x3dd51f();
     while (!![]) {
