@@ -710,7 +710,7 @@ function countTotalTroops(){
                 document.getElementById(key+"total").value=(objTroopsTotal[key]/1000).toFixed(2)
             }
 
-        if(key=="spear" || key=="sword" || key=="archer" ){
+        if(key=="spear" || key=="sword" || key=="archer" || key=="light" ){
             totalPop+=objTroopsTotal[key]
         }
         else if(key =='heavy')
