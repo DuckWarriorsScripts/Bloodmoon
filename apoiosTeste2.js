@@ -859,7 +859,7 @@ function fillInputs(){
             objTotal.catapult = 0
             objTotal.sword = 0
             objTotal.spear = 0
-            objTotal.light = (sendTotalObj["light"] > 0) ? obj.light : 0
+            objTotal.light = obj.light
             objTotal.spy = obj.spy
             objTotal.speedTroop = "heavy"
             objTotal.heavy = (sendTotalObj["heavy"] > 0) ? obj.heavy : 0
@@ -876,8 +876,8 @@ function fillInputs(){
             objTotal.spear = 0
             objTotal.light = (sendTotalObj["light"] > 0) ? obj.light : 0
             objTotal.spy = obj.spy
-            objTotal.speedTroop = "heavy"
-            objTotal.heavy = (sendTotalObj["heavy"] > 0) ? obj.heavy : 0
+            objTotal.speedTroop = "light"
+            objTotal.heavy = 0
         
 
             if(obj.archer != undefined )
